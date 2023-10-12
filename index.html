@@ -1,36 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="main.css" />
-		<link rel="stylesheet" href="index.css" />
-		<title>Simulasi UKK</title>
-	</head>
-	<body>
-		<div class="container">
-			<header>
-				<img src="assets/img/store.png" alt="resto-kami" />
-				<h1>SELAMAT DATANG DI RESTORAN KAMI</h1>
-			</header>
-			<main>
-				<section class="login-section">
-					<form id="loginForm">
-						<label for="username">Username:</label>
-						<input type="text" id="username" name="username" required />
-						<label for="password">Password:</label>
-						<input type="password" id="password" name="password" required />
-						<button type="submit">Login</button>
-					</form>
-				</section>
-			</main>
-
-			<footer>
-				<p>
-					&copy; 2023 Restoran Kami. <br />
-					All rights reserved.
-				</p>
-			</footer>
-		</div>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="output.css" />
+    <title>Simulasi UKK</title>
+  </head>
+  <body>
+    <div class="mt-24">
+      <header>
+        <img src="assets/img/store.png" alt="resto-kami" />
+        <h1>SELAMAT DATANG DI RESTORAN KAMI</h1>
+      </header>
+      <main class="mt-20">
+        <section class="ml-5">
+          <form class="mt-8" id="loginForm">
+            <label for="username">Nama Pelangan:</label><br />
+            <input
+              class="bg-slate-200 w-64 h-8 rounded"
+              type="text"
+              id="username"
+              name="username"
+              required
+            /><br />
+            <div class="mt-5">
+              <label for="password">Nomor Telepon:</label><br />
+              <input
+                class="bg-slate-200 w-64 h-8 rounded"
+                type="password"
+                id="password"
+                name="password"
+                required
+              /><br />
+            </div>
+            <button
+              class="w-64 h-8 mt-5 bg-red-300 rounded text-white"
+              type="submit"
+            >
+              Lihat Menu
+            </button>
+          </form>
+        </section>
+      </main>
+      <br />
+      <footer class="ml-20 mt-32">
+        <p>
+          &copy; 2023 Restoran Kami<br />
+          All rights reserved.
+        </p>
+      </footer>
+    </div>
+  </body>
 </html>
