@@ -31,6 +31,27 @@ div h2{
     background-color: rgb(236, 255, 175);
     width: 600px;
 }
+div h3{
+    margin-left: 200px;
+}
+.pahe{
+    width: 200px;
+    margin-left: 200px;
+}
+div button{
+    background-color: rgb(250, 241, 121);
+    border: none;
+    border-radius: 100px;
+    margin-left: 40px;
+    width: 50px;
+    padding: 5px;
+}
+.nasi img{
+    width: 180px;
+    height: 150px;
+    background-size: cover;
+    margin-left: 100px;
+}
 footer{
     position: fixed;
     justify-content: center;
