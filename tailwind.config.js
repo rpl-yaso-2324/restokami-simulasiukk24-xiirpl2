@@ -7,7 +7,7 @@ module.exports = {
 				quicksand: ["Quicksand", "sans-serif"],
 			},
 			colors: {
-				redpastel: "#ff5a5a",
+				redpastel: "#FF9191",
 			},
 		},
 	},

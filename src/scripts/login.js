@@ -1,11 +1,12 @@
+/**
+ * login page
+ */
+
 const user = {
 	username: "rabbanisan",
 	password: "123",
 };
 
-/**
- * login page
- */
 // document
 // 	.getElementById("loginForm")
 // 	.addEventListener("submit", function (event) {
@@ -30,11 +31,11 @@ const user = {
 // 		}
 // 	});
 
-function login(event) {
+function login() {
 	const username = document.getElementById("username");
 	const password = document.getElementById("password");
 	if (username.value === "" || password.value === "") {
-		window.alert("Username dan Password harus diisi!.");
+		window.alert("Username dan Password harus di isi!.");
 	} else if (
 		username.value != user.username ||
 		password.value != user.password

@@ -3,89 +3,64 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<link rel="stylesheet" href="/dist/output.css" />
+		<title>Simulasi UKK</title>
 	</head>
-	<body>
-		<header>
-			<img src="" alt="" />
-			<h1></h1>
-		</header>
-		<main>
-			<div class="card-contaner">
-				<div class="card-category">
-					<div class="card-category-title">
-						<h1 class="">Paket</h1>
-					</div>
-					<div class="card" id="cardPaket">
-						<div class="card-body">
-							<img src="" alt="" />
-							<div class="card-detail">
-								<h5 class="menu-title"></h5>
-								<p class="menu-dec"></p>
-								<p class="menu-price"></p>
-								<div class="menu-count">
-									<button class="plus"></button>
-									<div class="">
-										<p>Jumlah:</p>
-										<p class="count">0</p>
-									</div>
-									<button class="min"></button>
-								</div>
+	<body class="w-full flex justify-center">
+		<div class="container w-[360px] h-screen flex flex-col mx-2 pb-8 shadow-md">
+			<header
+				class="flex justify-center items-center border-b-2 border-redpastel"
+			>
+				<img
+					src="/src/assets/img/store.png"
+					alt="resto-kami"
+					class="w-[30px] h-[30px]"
+				/>
+				<h1 class="text-lg md:text-2xl font-bold font-quicksand my-4 mx-2">
+					Menu
+				</h1>
+			</header>
+			<main class="flex flex-col items-center">
+				<div class="card-container overflow-y-scroll h-[600px]">
+					<!-- card -->
+					<div
+						class="card m-2 flex items-center space-x-2 bg-slate-100 rounded-md p-2"
+					>
+						<div class="img-container w-[100px] h-[100px] p-2">
+							<img
+								class="menu-img"
+								src="/src/assets/img/store.png"
+								alt="tutug-oncom"
+							/>
+						</div>
+						<div class="menu-detail w-8/12">
+							<h4 class="menu-title font-semibold">Tutug Oncom</h4>
+							<p class="menu-desc text-xs my-1">
+								Nasi tutug oncom + Ayam (bakar/goreng) + Tahu & Tempe + Sambal +
+								Teh
+							</p>
+							<h7 class="menu-price text-sm font-semibold"
+								><span>Rp.</span>36000</h7
+							>
+							<div class="menu-count flex space justify-between mt-3">
+								<button class="plus bg-blue-200 rounded-lg px-6">+</button>
+								<p class="count"><span>Jumlah: </span>2</p>
+								<button class="min bg-red-200 rounded-lg px-6">-</button>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="card-category">
-					<div class="card-category-title">
-						<h1 class="">Paket</h1>
-					</div>
-					<div class="card" id="cardPaket">
-						<div class="card-body">
-							<img src="" alt="" />
-							<div class="card-detail">
-								<h5 class="menu-title"></h5>
-								<p class="menu-dec"></p>
-								<p class="menu-price"></p>
-								<div class="menu-count">
-									<button class="plus"></button>
-									<div class="">
-										<p>Jumlah:</p>
-										<p class="count">0</p>
-									</div>
-									<button class="min"></button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="card-category">
-					<div class="card-category-title">
-						<h1 class="">Paket</h1>
-					</div>
-					<div class="card" id="cardPaket">
-						<div class="card-body">
-							<img src="" alt="" />
-							<div class="card-detail">
-								<h5 class="menu-title"></h5>
-								<p class="menu-dec"></p>
-								<p class="menu-price"></p>
-								<div class="menu-count">
-									<button class="plus"></button>
-									<div class="">
-										<p>Jumlah:</p>
-										<p class="count">0</p>
-									</div>
-									<button class="min"></button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<button class="cta-button"></button>
-		</main>
-		<footer>
-			<p></p>
-		</footer>
+				<button
+					type="button"
+					class="w-[80%] bg-redpastel text-white py-2 px-4 font-semibold text-xl rounded-xl my-4 hover:bg-gray-200 hover:text-black focus:outline-none focus:shadow-outline"
+				>
+					Pesan Menu
+				</button>
+			</main>
+			<footer class="text-center text-gray-800 text-md mt-4">
+				<p>&copy; 2023 Restoran Kami.<br />All rights reserved.</p>
+			</footer>
+		</div>
+		<script src="/src/scripts/login.js"></script>
 	</body>
 </html>
