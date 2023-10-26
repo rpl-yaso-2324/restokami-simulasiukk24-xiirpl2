@@ -1,0 +1,40 @@
+body{
+    max-width: 789px;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+	align-items: center;
+}
+header img{
+    width: 50px;
+}
+h2{
+    margin-left: 50px;
+
+}
+div h2{
+    border-radius: 8px;
+    background-color: rgb(188, 222, 211);
+    width: 9%;
+    padding: 5px;
+    
+}
+.line{
+    height:5px;
+    background-color: rgb(255, 164, 199);
+    width: 670px;
+}
+.line2{
+    height: 5px;
+    background-color: rgb(236, 255, 175);
+    width: 600px;
+}
+footer{
+    position: fixed;
+    justify-content: center;
+	align-items: center;
+    bottom: 10px;
+    margin-left: 290px;
+}
