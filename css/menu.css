@@ -2,29 +2,49 @@
 	font-family: "Quicksand";
 	src: url("/assets/font/Quicksand-VariableFont_wght.ttf") format("truetype");
 }
-header img {
+.img1 {
 	width: 10%;
-    margin-left: 38%;
+    margin-left: 35%;
 }
-.MENU{
-    margin-left: 52%;
+.Sel{
+    margin-left: 50%;
     margin-top: -7%;
 }
-.warna1{
-    color: red;
-}
-.div1{
-    height: 20%;
-    width: 20%;
-    border-radius: 20%;
-    background: gray;
+.sela{
     text-align: center;
-    margin-left: 5%;
+    width: 15%;
+    margin-right: 60%;
+    margin-top: -2%;
 }
-.hr2{
-    width: 90%;
+hr{
+    margin-top: 1%;
 }
-.gambar1{
-    width: 30%;
-    margin-left: 5%;
+.gambar2 {
+    margin-top: 4%;
+	width: 50%;
+   height: 40%;
 }
+.deskripsi{
+    margin-left: 53%;
+    margin-top: -33%;
+}
+.bahan{
+    margin-left: 53%;
+}
+.jumlah{
+    margin-left: 53%;
+}
+.harga{
+    margin-left: 53%;
+}
+.button{
+    margin-left: 53%;
+    background:deepskyblue;
+    width: 10%;
+    border-radius:4px;
+}
+
+.footer{
+	margin-top: 15%;
+}
+
