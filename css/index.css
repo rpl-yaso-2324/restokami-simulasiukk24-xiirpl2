@@ -23,6 +23,7 @@ header h1 {
 .button{
 	background-color: blueviolet;
 	width: 100%;
+	text-align: center;
 }
 .footer{
 	margin-top: 15%;

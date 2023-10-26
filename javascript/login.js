@@ -1,12 +1,23 @@
-document.getElementById('loginForm').addEventListener('submit', function(event) {
-    event.preventDefault();
-    var username = document.getElementById('username').value;
-    var password = document.getElementById('password').value;
+const user = {
+	username: "ginsan",
+	password: "123",
+};
 
-    // Here you can add your validation logic. For example:
-    if (username === 'test' && password === '1234') {
-        window.location.href = 'menu.html';
+function login() {
+    const username = document.getElementById("username");
+    const password = document.getElementById("password");
+    if (username.value === "" || password.value === "kisah") {
+        window.alert("username dan password harus diisi")
+    } else if (
+        username.value != user.username ||
+        password.value != user.password
+    ) {
+        window.alert("username dan password tidak sesuai!.");
+        
     } else {
-        alert('Username or password is incorrect');
+        location.href = "/pages/menu.html"
     }
-});
+ 
+    username.value = "";
+    password.value = "";
+}
