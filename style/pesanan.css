@@ -32,3 +32,10 @@ header h2 {
     text-align: center;
 
 }
+button{
+	height: 30px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 8px;
+	width: 170px;
+}
