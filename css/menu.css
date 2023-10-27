@@ -3,12 +3,12 @@
 	src: url("/assets/font/Quicksand-VariableFont_wght.ttf") format("truetype");
 }
 .img1 {
-	width: 10%;
-    margin-left: 35%;
+	width: 15%;
+    margin-left: 33%;
 }
 .Sel{
-    margin-left: 50%;
-    margin-top: -7%;
+    margin-left: 53%;
+    margin-top: -10%;
 }
 .gambar2 {
     margin-top: 4%;
@@ -35,15 +35,37 @@
     border-radius:4px;
 }
 .minus{
-    margin-top: -8%;
-    margin-left: 73%;
     background:deepskyblue;
     width: 10%;
     border-radius:4px;
 }
 
 .footer{
-	margin-top: 15%;
+	margin-top: 3%;
     text-align: center;
 }
-
+.button{
+    display: flex;
+    margin: 10px au;
+}
+.makanan{
+    margin-left: 8%;
+    border-radius: 20%;
+    background: gray;
+    width: 20%;
+    text-align: center;
+}
+hr{
+    margin-top: 2%;
+    background:tomato;
+}
+.button2{
+	background-color:tomato;
+	width: 70%;
+	padding: 3%;
+	border-radius: 20%;
+	margin-left: 15%;
+    text-align: center;
+    color:aliceblue;
+    font-size: 17px;
+}

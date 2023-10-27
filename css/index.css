@@ -22,11 +22,14 @@ header h1 {
 }
 .button{
 	background-color: blueviolet;
-	width: 100%;
+	width: 106%;
+	padding: 5%;
+	border-radius: 25%;
 	text-align: center;
 }
 .footer{
-	margin-top: 15%;
+	margin-left: 6%;
+	margin-top:45%;
 }
 .log{
 	text-decoration-line: none;
