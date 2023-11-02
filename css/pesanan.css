@@ -9,3 +9,13 @@
 hr{
     background:turquoise;
 }
+.button2{
+	background-color:tomato;
+	width: 70%;
+	padding: 3%;
+	border-radius: 20%;
+	margin-left: 15%;
+    text-align: center;
+    color:aliceblue;
+    font-size: 17px;
+}
