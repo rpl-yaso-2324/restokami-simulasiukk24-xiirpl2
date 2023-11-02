@@ -22,7 +22,7 @@ img {
     padding: 10px;
     margin: 10px 0 10px 0;
   }
-
+/* 
 h1{
 
     font-size: 15px;
@@ -53,8 +53,208 @@ h2{
     width: 20%;
     margin-top: 10PX;
    
+}  */
+.container .menupage{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	margin-top: 1 rem;
+	
 } 
+.btn-lihat{
+	border: none;
+	background-color: rgb(225, 16, 16);
+	width: 800px;
+	border-radius: 5px;
+	padding: 8px;
+	color: white;
+	font-family: Quicksand;
+	font-weight: 600;
+	font-size: 17px;
+	margin: 5px;
+	
+}
+
+.menupage h2{
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+.menupage img{
+	width: 50px;
+}
+
+.line hr{
+	border: none;
+	height: 4px;
+	width: 100%;
+	background-color:pink ;
+	margin-top: 10px;
+
+}
+
+.menulist .text-listmenu1{
+	margin: 0;
+	padding: 10px;
+	width: 60px;
+	background-color: rgb(158, 157, 156);
+	border-radius: 40px;
+	text-align: center;
+	margin: 10px;
+	color: white;
+	margin-top: 2rem;
+}
+
+.menulist .text-listmenu2{
+	margin: 0;
+	padding: 10px;
+	width: 80px;
+	background-color:  rgb(158, 157, 156);
+	border-radius: 40px;
+	text-align: center;
+	margin: 10px;
+	color: white;
+	margin-top: 2rem;
+}
+
+
+.menulist .text-listmenu3{
+	margin: 0;
+	padding: 10px;
+	width: 80px;
+	background-color:  rgb(158, 157, 156);
+	border-radius: 40px;
+	text-align: center;
+	margin: 10px;
+	color: white;
+	margin-top: 2rem;
+}
+
+
+
+.line1 hr{
+	border: none;
+	height: 3px;
+	width: 100%;
+	background-color: orange;
+	margin-top: 5px;
+	
+
+}
+.menulist {
+	margin: 1rem 0;
+}
+.sectionmenu{
+	padding: 18px;
+}
+
+.menu-option{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.menu-option .img-menu{
+	width: 50%;
+	margin: 20px;
+	overflow: hidden;
+	border-radius: 0.5rem;
+}
+
+.img-menu img{
+	border-radius: 0.5rem;
+	width: 100%;
+	height: 100%;
+}
+
+.menu-option .text-menu{
+	padding: 10px;
+	width: 50%;
+	margin: -5px;
+	font-size: 15px;
+}
+
+.text-menu p{
+	font-size: 13px;
+	margin: 10px 0;
+}
+.menu-option .btn-menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 1rem;
+}
+
+.menu-minuman{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.menu-minuman .img-menu{
+	width: 50%;
+	margin: 20px;
+	overflow: hidden;
+	border-radius: 0.5rem;
+}
+
+.img-menu img{
+	border-radius: 0.5rem;
+	width: 100%;
+	height: 100%;
+}
+
+.menu-minuman .text-menu{
+	padding: 10px;
+	width: 50%;
+	margin: -5px;
+	font-size: 15px;
+}
+
+.text-menu p{
+	font-size: 13px;
+	margin: 10px 0;
+}
+.menu-minuman .btn-menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 1rem;
+}
+.btn-menu button{
+	border-radius: 10px;
+	padding: 3px 1rem;
+	border: none;
+	background-color: #96C8EB;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.btn-menu .plus{
+	font-size: 20px;
+}
+
+.btn-menu .min{
+	border-radius: 10px;
+	padding: 3px 1rem;
+	border: none;
+	background-color:  rgb(255, 85, 113);
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.btn-menu .min{
+	font-size: 20px;
+}
 
 footer{
 	margin-top: 70%;
+  text-align: center;
 }
