@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="icon" type="image/x-icon" href="../assets/img/store.png" />
+    <title>Pesanan</title>
+  </head>
+  <body>
+    <header class="ml-28">
+      <div class="flex">
+        <img class="w-12 ml-2" src="../assets/img/store.png" alt="Toko" />
+        <p class="text-xl font-bold mt-4 ml-3">Pesanan Anda</p>
+      </div>
+      <hr class="border-t border-blue-400 mt-2 border-2 w-96 ml-[-110px]" />
+    </header>
+    <!-- main -->
+    <main class="mt-5">
+      <div class="infoPembayaran bg-slate-50">
+        <p class="text-2xl ml-16">Total Pembayaran Sebesar</p>
+        <br />
+        <p class="ml-32 text-2xl text-orange-300">RP.101.000</p>
+      </div>
+      <div class="catatan bg-gray-200">
+        <textarea
+          class="ml-3 mt-1 rounded-lg"
+          name=""
+          id=""
+          cols="47"
+          rows="5"
+          placeholder="Catatan:"
+        ></textarea>
+      </div>
+      <div class="pembayaran mt-3">
+        <div
+          class="bg-gray-400 w-60 ml-5 text-white rounded-xl text-lg text-center"
+        >
+          Metode Pembayaran
+        </div>
+        <hr class="w-[350px] ml-5 border-spacing-14 border-orange-500 mt-2" />
+        <div class="harga w-[350px] h-10 ml-5 mt-3 bg-slate-300 flex">
+          <input
+            class="ml-5 mt-1.5 w-5 h-7 cursor-pointer"
+            type="radio"
+            name=""
+            id=""
+          />
+          <p class="text-lg mt-1.5 ml-1 font-semibold">Resto Pay</p>
+          <div class="saldo">
+            <p class="text-sm font-bold ml-28">
+              Saldo Resto Pay :<br />
+              RP.500.000
+            </p>
+          </div>
+        </div>
+        <div class="metode w-[350px] h-10 ml-5 mt-3 bg-slate-300 flex">
+          <input
+            class="ml-5 mt-1.5 w-5 h-7 cursor-pointer"
+            type="radio"
+            name=""
+            id=""
+          />
+          <p class="text-lg mt-1.5 ml-1 font-semibold">Cash</p>
+          <div class="saldo">
+            <p class="text-xs mt-3 ml-5">
+              Siapkan Uang Sesuai nominal Pembayaran !
+            </p>
+          </div>
+        </div>
+        <br />
+      </div>
+      <div class="buttonLast">
+        <button
+          class="cursor-pointer mt-32 ml-9 rounded-lg bg-red-400 hover:bg-red-200 text-white text-3xl h-10 w-80"
+        >
+          Bayar Pesanan
+        </button>
+      </div>
+    </main>
+    <footer class="text-center mt-20 justify-center">
+      <p>
+        &copy; 2023 Restoran Kami<br />
+        All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="icon" type="image/x-icon" href="../assets/img/store.png" />
+    <title>Menu</title>
+  </head>
+  <body class="w-96 items-center justify-center h-screen">
+    <header class="ml-28">
+      <div class="flex">
+        <img class="w-12 ml-3" src="../assets/img/store.png" alt="Toko" />
+        <p class="text-xl font-bold mt-4 ml-3">Menu</p>
+      </div>
+      <hr class="border-t border-red-400 mt-2 border-2 w-96 ml-[-110px]" />
+    </header>
+    <main>
+      <div
+        class="flex flex-col overflow-auto h-[490px] justify-between ml-8 mt-7"
+      >
+        <!-- isi menu Paket -->
+        <div name="paket">
+          <div class="flex">
+            <img
+              class="w-24 h-24 rounded-xl hover:w-36 hover:h-36"
+              src="../assets/img/minum.jpg"
+              alt="produk"
+            />
+            <div class="ml-5">
+              <h2 class="text-lg font-bold">Paket Hemat 1</h2>
+              <p>
+                Nasi timbel + Ayam (bakar/goreng) + tahu & tempe + sambal + teh
+              </p>
+              <p class="mt-2">RP.36.000</p>
+              <div name="button" class="flex space-x-3">
+                <button
+                  class="bg-blue-300 hover:bg-blue-200 w-16 rounded-xl text-lg font-bold text-white"
+                >
+                  +
+                </button>
+                <div>Jumlah:<span>0</span></div>
+                <button
+                  class="bg-red-300 hover:bg-red-200 w-16 rounded-xl text-lg font-bold text-white"
+                >
+                  -
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- isi menu paket end -->
+        <!-- isi menu Makanan -->
+        <div name="makankan">
+          <div class="flex mt-2">
+            <img
+              class="w-24 h-24 rounded-xl"
+              src="../assets/img/minum.jpg"
+              alt="produk"
+            />
+            <div class="ml-5">
+              <h2 class="text-lg font-bold">Nasi Goreng</h2>
+              <p>
+                Nasi yang di goreng dengan bumbu menggunakan toping pada umumnya
+              </p>
+              <p class="mt-2">RP.15.000</p>
+              <div name="button" class="flex space-x-3 mt-1">
+                <button
+                  class="bg-blue-300 hover:bg-blue-200 w-16 rounded-xl text-lg font-bold text-white"
+                >
+                  +
+                </button>
+                <div>Jumlah:0</div>
+                <button
+                  class="bg-red-300 hover:bg-red-200 w-16 rounded-xl text-lg font-bold text-white"
+                >
+                  -
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- isi menu makanan end -->
+        <!-- isi menu Minuman -->
+        <div name="minuman">
+          <div class="flex mt-2">
+            <img
+              class="w-24 h-24 rounded-xl"
+              src="../assets/img/minum.jpg"
+              alt="produk"
+            />
+            <div class="ml-5">
+              <h2 class="text-lg font-bold">Lemon Tea</h2>
+              <p>Teh manis + Perasan Lemon</p>
+              <p class="mt-2">RP.7.000</p>
+              <div name="button" class="flex space-x-3 mt-1">
+                <button
+                  class="bg-blue-300 hover:bg-blue-200 w-16 rounded-xl text-lg font-bold text-white"
+                >
+                  +
+                </button>
+                <div>Jumlah:0</div>
+                <button
+                  class="bg-red-300 hover:bg-red-200 w-16 rounded-xl text-lg font-bold text-white"
+                >
+                  -
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- isi menu minuman end -->
+      </div>
+      <!-- Last button -->
+      <button
+        class="cursor-pointer mt-10 ml-10 rounded-lg bg-red-400 hover:bg-red-200 text-white text-3xl h-10 w-80"
+      >
+        Pesan
+      </button>
+    </main>
+    <footer class="text-center mt-20 justify-center">
+      <p>
+        &copy; 2023 Restoran Kami<br />
+        All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>

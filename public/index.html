@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="index.css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="icon" type="image/x-icon" href="assets/img/store.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/x-icon" href="../assets/img/store.png" />
     <title>Restoran Kami</title>
   </head>
-  <body>
+  <body class="flex items-center justify-center h-screen">
     <div class="mt-24">
-      <header>
-        <img src="assets/img/store.png" alt="resto-kami" />
-        <h1>SELAMAT DATANG DI RESTORAN KAMI</h1>
+      <header class="items-center">
+        <img src="../assets/img/store.png" alt="kedai" />
+        <h1 class="text-2xl">SELAMAT DATANG DI RESTORAN KAMI</h1>
       </header>
       <main class="mt-20">
         <section class="ml-5">
@@ -38,7 +38,8 @@
             </div>
             <button
               class="w-64 h-8 mt-5 bg-red-300 hover:bg-red-200 rounded text-white"
-              type="submit"
+              type="button"
+              onclick="login()"
             >
               Lihat Menu
             </button>
@@ -46,12 +47,15 @@
         </section>
       </main>
       <br />
-      <footer class="ml-20 mt-32">
+      <footer class="text-center mt-28 justify-center">
         <p>
           &copy; 2023 Restoran Kami<br />
           All rights reserved.
         </p>
       </footer>
+      <br />
+      <br />
     </div>
   </body>
+  <script src="./Javascript/login.js"></script>
 </html>
