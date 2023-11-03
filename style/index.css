@@ -12,6 +12,7 @@ header {
 
 header img {
 	width: 100px;
+	margin-top: 20%;
 }
 header h1 {
 	font-family: Quicksand;
@@ -24,16 +25,16 @@ form{
 	margin-top: 70%;
 }
 button{
-	height: 30px;
+	height: 40px;
 	margin-top: 10px;
 	border: none;
 	border-radius: 5px;
-	width: 170px;
+	width: 250px;
 }
 input{
-	height: 30px;
+	height: 40px;
 	border: none;
 	border-radius: 5px;
-	width: 170px;
+	width: 250px;
 	background-color: rgb(230, 229, 229);
 }
