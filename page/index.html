@@ -42,6 +42,27 @@
 			</p>
 		</footer>
 	</div>
+	<script>
+		const validasi = () =>{
+    const user ={
+		username: "masuk",
+		pass:"123",
+	};
+	event.preventDefault();
+	const inputUser = document.getElementById("username").value;
+	const inputPass = document.getElementById("password").value;
+
+	if (inputUser === "" || inputPass ==="") {
+		alert("Username dan password tidak boleh kosong");
+
+	} else if(inputUser !== user.username || inputPass !== user.pass){
+		alert("Username atau password salah")
+	}   
+	else {
+		window.location.href = "./menu.html";
+	}
+};
+	</script>
 
 
 
