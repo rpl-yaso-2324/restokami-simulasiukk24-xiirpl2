@@ -1,6 +1,6 @@
 const user = {
     username : "aryalesmana",
-    password : "arya1008"
+    password : "123"
 }
 
 

@@ -2,98 +2,33 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../style/menu.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/main.css" />
+  <link rel="stylesheet" href="./styles/menu.css" />
+  <title>Simulasi UKK</title>
 </head>
 
 <body>
-   <img src="../assets/img/store.png" alt="">
-   <div class="line"></div>
-</header>
-<div class="item-con">
-    <div class="paket">
-        <h3 style="text-align: center; margin-top: 20px;">Paket</h3>
-        <div class="item-line"></div>
-        <div class="img-menu"><img style=" width: 150px;
-            height: 150px;
-            border-radius: 10px;" src="../assets/img/ayam.jpg"></div>
-            <div style="display: flex; gap: 40px; margin: 10px 0 10px 0">
-                <div style="
-          width: 150px;
-          height: 150px;
-          background-size: cover;
-          background-image:();
-          ">
-                </div>
-                <div class="menu-option">
-                    <div class="text-menu">
-                        <h4>Paket Menu 1</h4>
-                        <p>paket hemat ayam geprek + teh sosro</p>
-                        <h5>Rp. 25.000</h5>
-                        <span class="btn-menu">
-                            <button class="plus">+</button>
-                            <h5>Jumlah: 1</h5>
-                            <button class="min">-</button>
-                        </span>
-                    </div>
-                </div>
-
-            </div>
-
-                        <!-- <div style="display: flex;">
-                            <h1>+</h1>
-                            <h5>Jumlah: 0</h5>
-                            <h2>-</h2>
-                        </div>
-                    </div>
-                <div>
-                    <h4>Ayam geprek Sambal Bawang</h4>
-                    <h5>
-                       
-                    </h5>
-                    <h4>Rp.25.0000</h4>
-                    <div style="
-            justify-content: space-between;
-            display: flex;
-            gap: 30px;
-            align-items: center;
-          ">
-                        <div style="display: flex;">
-                            <h1>+</h1>
-                            <h5>Jumlah: 0</h5>
-                            <h2>-</h2>
-                        </div>
-    
-                    </div>
-                    
-                <div>
-                    <h4>Ayam geprek Sambal Bawang</h4>
-                    <h5>
-                       
-                    </h5>
-                    <h4>Rp.36.000</h4>
-                    <div style="
-            justify-content: space-between;
-            display: flex;
-            gap: 30px;
-            align-items: center;
-          ">
-                        <div style="display: flex;">
-                            <h1>+</h1>
-                            <h5>Jumlah: 0</h5>
-                            <h2>-</h2>
-                        </div>
-                    </div>      -->
-                  <center> <button style="background-color: pink; height: 30px; width: 200px; 
-                    border-radius: 10px; font-size: 20px;" type="submit" >Pesan</button></center>
-                    <footer>
-                        <p>
-                            &copy; 2023 Restoran Kami. <br />
-                            All rights reserved.
-                        </p>
-                    </footer>
+  <div class="container">
+    <header class="navbar">
+      <img src="assets/img/store.png" alt="resto-kami" />
+      <h3>Menu</h3>
+    </header>
+    <main class="main-menu">
+      <section class="menu-section"></section>
+    </main>
+    <div class="container-bayar">
+      <button class="button-full" id="order" onclick="pesan()">Pesan</button>
+    </div>
+    <footer>
+      <p>
+        &copy; 2023 Restoran Kami. <br />
+        All rights reserved.
+      </p>
+    </footer>
+  </div>
+  <script src="./menu.js"></script>
 </body>
 
 </html>
